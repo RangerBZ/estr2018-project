@@ -1,0 +1,14 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Jupyter Notebook output and metadata
+**/*.ipynb:
+  output:
+  metadata:
+  execution_count:
+  last_modified:
+  collapsed:
+  trusted:
+  cell_type: code
+  outputs:
+  prompt_number:
